@@ -8,15 +8,15 @@ export class User {
   @Field(() => ID)
   id: number;
 
-  @Column({ nullable: true })
+  @Column()
   @Field()
   username: string;
 
-  @Column({ nullable: true })
+  @Column()
   @Field()
   email: string;
 
-  @Column({ nullable: true })
+  @Column()
   @Field()
   password: string;
 }
